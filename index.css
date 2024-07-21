@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: linear-gradient(45deg,#F59CA9, #371E30
+  ); 
+  text-align: center;
+}
+
+.container{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+  background-color: rgb(179, 222, 239);
+  padding: 10px;
+  border-radius: 5px;
+  border: 10px dashed rgb(14, 14, 14);
+}
+
+.game:hover {
+  background-color: rgb(225, 240, 137);
+  font-weight: bolder;
+  padding: 5px;
+  
+}
+
+.box{
+  height:18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  box-shadow:0 0 1rem rgba(0,0,0,1);
+  font-size: 8vmin;
+  cursor: pointer;
+  background: linear-gradient(90deg, #F59CA9, #371E30);
+}
+
+.box:hover {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
+#reset{
+  padding: 1rem;
+  margin: 3rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  background:linear-gradient(#F59CA9, #371E30);
+  box-shadow:0 0 1rem rgba(0,0,0,1);
+  cursor: pointer;
+}
+
+#reset:hover {
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+#newBtn{
+  padding:1rem;
+  font-size:1rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  background:linear-gradient(#F59CA9, #371E30);
+  box-shadow:0 0 1rem rgba(0,0,0,1);
+  cursor: pointer;
+}
+
+#newBtn:hover {
+  color: rgb(10, 10, 10);
+  font-size:20px;
+  font-weight: bolder;
+  padding: 25px;
+}
+
+#msg{
+  color: #000000;
+  font-size:5vmin;
+  font-weight: bolder;
+}
+
+#msg:hover {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  background-color: black;
+  font-size:7vmin;
+}
+
+.msgContainer{
+  height:100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  gap: 4rem;
+}
+
+.hide{
+  display: none;
+}
+
+#tic:hover{
+  font-size: 35px;
+  color: rgb(240, 240, 240);
+  background-color: rgb(11, 10, 11);
+}
+
+
+
+
+
+
+
+
+
